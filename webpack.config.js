@@ -13,7 +13,7 @@ module.exports = {
       },
     output: {
       filename: '[name].js',
-      path: path.resolve(__dirname, 'dist')
+      path: path.resolve(__dirname, 'docs')
     },
     module: {
       rules: [
@@ -32,10 +32,11 @@ module.exports = {
   <html>
     <head>
       <meta charset="utf-8">
-      <title>Webpack App</title>
+      <title>ear</title>
     </head>
     <body>
       <div id="app" />
+      <div>my ear</div>
     </body>
   </html>
       `,
